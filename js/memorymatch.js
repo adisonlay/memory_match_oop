@@ -8,7 +8,7 @@ class MemoryMatch{
         this.cardObjects = [];
         this.domElements = {
             cardArea : $(cardArea)
-        }
+        };
         this.revealTime = 1500;
         this.selectedCards = [];
     }
@@ -47,7 +47,7 @@ class MemoryMatch{
     }
     resetClickedCards(){
         for(var cardI = 0; cardI < this.selectedCards.length; cardI++){
-            this.selectedCards[ cardI ].coverFront();
+            this.selectedCards[cardI].revealBack();
         }
         this.selectedCards = [];
     }

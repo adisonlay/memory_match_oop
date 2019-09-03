@@ -59,8 +59,7 @@ var data = [
             click: 'sounds/click.wav',
             match: 'sounds/mickeyohboy.mp3'
         }
-    }
-    ,
+    },
     {
         id: 'mickey',
         frontImage: 'images/mickey2.jpg',
@@ -103,7 +102,7 @@ var data = [
         sounds: {
             click: 'sounds/click.wav',
             match: 'sounds/deepbark.mp3',
-            mismaqtch: 'sounds/barkconverterino.mp3'
+            mismatch: 'sounds/barkconverterino.mp3'
         }
     },
     {
